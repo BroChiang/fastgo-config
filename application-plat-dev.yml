@@ -5,6 +5,6 @@ spring:
     name: FASTGO-PLAT
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql:///fast-plat?useSSL=false&userUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql:///fastgo-plat?useSSL=false&userUnicode=true&characterEncoding=utf8
     username: root
     password: root
