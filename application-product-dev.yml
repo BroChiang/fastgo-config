@@ -9,4 +9,4 @@ spring:
     username: root
     password: root
 mybatis-plus:
-type-aliases-package: cn.itsource.fastgo.domain,cn.itsource.fastgo.query
+    type-aliases-package: cn.itsource.fastgo.domain,cn.itsource.fastgo.query
