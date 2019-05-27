@@ -1,5 +1,5 @@
 server:
-  port: 5001
+  port: 9527
 spring:
   application:
     name: FASTGO-ZUUL-GATEWAY
@@ -10,7 +10,17 @@ zuul:
     plat:
       path: /plat/**
       service-id: fastgo-plat
-aigou-product: 
+    product:
+      path: /product/**
+      service-id: fastgo-product
+    common:
+      path: /common/**
+      service-id: fastgo-common
+fastgo-product: 
+  ribbon:
+    ConnectTimeout: 1000
+    ReadTimeout: 5000
+fastgo-common: 
   ribbon:
     ConnectTimeout: 1000
     ReadTimeout: 5000
